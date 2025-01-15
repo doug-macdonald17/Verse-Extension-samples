@@ -2,7 +2,7 @@
   {
     "title": "Navbar Extension Sample",
     "name": "Navbar Extension Sample",
-    "description": "Adds two top level links into different locations and a link into the More menu",
+    "description": "Adds two top level links into different locations and a link into the More menu. Removes the iNotes link from the More menu.",
     "extensions": [
       {
         "type": "com.ibm.action.link",
@@ -13,7 +13,7 @@
         "name": "Sample Link 1",
         "description": "This sample shows how to add a top-level link",
         "payload": {
-          "link": "http://www.hcl.com",
+          "link": "https://www.hcl-software.com",
           "title": "Sample Link 1",
           "window_features": "target=_blank"
         },
@@ -28,7 +28,7 @@
         "name": "Sample Link 2",
         "description": "This sample shows how to add a top-level link",
         "payload": {
-          "link": "http://www.hcl.com",
+          "link": "https://www.hcl-software.com",
           "title": "Sample Link 2",
           "window_features": "target=_blank"
         },
@@ -44,10 +44,16 @@
         "title": "Sample Link 3",
         "description": "This sample shows how to add a new link to More menu",
         "payload": {
-          "link": "http://www.hcl.com",
+          "link": "https://www.hcl-software.com",
           "title": "Sample Link 3",
           "window_features": "target=_blank"
         }
+      },
+      {
+        "type": "com.ibm.action.delete",
+        "path": ".mailswitchdom",
+        "name": "Delete iNotes link",
+        "description": "This sample shows how to delete the iNotes link from the More menu"
       }
     ],
     "services": [

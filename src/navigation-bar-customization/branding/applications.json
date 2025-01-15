@@ -17,7 +17,7 @@
         "title": "New Company Name",
         "description": "This sample shows how to add a new organization link",
         "payload": {
-          "link": "https://www.hcltechsw.com/",
+          "link": "https://www.hcl-software.com/",
           "title": "New Company Name",
           "window_features": "target=_blank"
         }
@@ -29,7 +29,7 @@
         "path": "com.ibm.navbar.order.1000",
         "description": "This sample shows how to add a new organization logo",
         "payload": {
-          "link": "https://www.hcltechsw.com/",
+          "link": "https://www.hcl-software.com/",
           "title": "New Company Name",
           "icon": "data:image/svg+xml;base64,PHN2ZyBjbGFzcz0nY2hhdC1pbWFnZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyBmaWxsPSd3aGl0ZScgdmlld0JveD0nMCAwIDIwIDIwJz48cGF0aCBjbGFzcz0nY2hhdC1pbWFnZS1vdXRsaW5lJyBkPSdNMTAgMEM1LjYgMCAyIDMuNiAyIDhjMCA0LjEgMy4xIDcuNCA3IDcuOVYyMGw2LjgtNi41QzE3LjEgMTIuMSAxOCAxMC4xIDE4IDhjMC00LjQtMy42LTgtOC04em01IDEyLjlsLTUgNC43VjE1Yy0zLjkgMC03LTMuMS03LTdzMy4xLTcgNy03IDcgMy4xIDcgN2MwIDEuOS0uOCAzLjYtMiA0Ljl6Jy8+PC9zdmc+",
           "window_features": "target=_blank"
