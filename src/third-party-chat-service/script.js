@@ -1,2 +1,4 @@
 const queryString = window.location.search;
-document.getElementById("emails").innerHTML = decodeURIComponent(queryString.substring(1));
+const urlParams = new URLSearchParams(queryString);
+const emails = urlParams.get('emails');
+document.getElementById("emails").innerHTML = decodeURIComponent(emails);
